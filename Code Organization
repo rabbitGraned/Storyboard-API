@@ -36,7 +36,7 @@ private class ArrayPoints;
 Для констант используются все заглавные буквы (не забывайте о возможных префиксах).
 
 define('PRJ_WEBSITE_URL', 'https://website.com/');
-define('PRJ_GLOBAL_CURRENCY', '$');
+define('PRJ_GLOBAL_CURRENCY', '');
 
 4. Объявление функций (имена и форматирование)
 Имена всех функций должны начинаться со строчной буквы, а каждое слово – с заглавной буквы. Фигурные скобки должны стоять на той же строке (после списка параметров).
@@ -58,12 +58,12 @@ function setPropertyValue($sName, $sValue) {
 foreach ($aKeys as $iKey => $sValue) {
     // здесь пользовательский код
 }
-if ($bCondition) {
+if (Condition) {
     // здесь пользовательский код
 } else {
     // здесь пользовательский код
 }
-switch ($sKey) {
+switch (Key) {
     case 1:
         // здесь пользовательский код
         break;
